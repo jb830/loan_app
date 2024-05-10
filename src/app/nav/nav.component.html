@@ -1,13 +1,16 @@
-<nav>
-  <div class="container mx-auto flex justify-between items-center flex-wrap py-1">
-    <a routerLink="home" class="text-lg font-semibold ">
-      <img src="../../assets/images/logo.png" alt="EverHome Logo" width="200px">
+<nav class="shadow-sm">
+  <div class="base-container mx-auto flex justify-between items-center flex-wrap py-1 px-4 ">
+    <a routerLink="home">
+      <img src="../../assets/images/logo.png" alt="EverHome Logo" width="200px" class="p-1">
     </a>
-    <div class="flex gap-4 items-end	">
-      <a routerLink="about" class="uppercase text-xl font-medium">
+    <div class="flex gap-4 items-end">
+      <a routerLink="/" class="uppercase text-base lg:text-lg font-medium">
+        Home
+      </a>
+      <a routerLink="about" class="uppercase text-base lg:text-lg font-medium">
         About Us
       </a>
-      <a routerLink="contact" class="uppercase text-xl font-medium">
+      <a routerLink="contact" class="uppercase text-base lg:text-lg font-medium">
         Contact
       </a>
     </div>

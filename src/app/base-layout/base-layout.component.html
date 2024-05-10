@@ -1,8 +1,13 @@
-<app-nav></app-nav>
+<div class="flex flex-col min-h-screen">
+  <app-nav class="base-container"></app-nav>
 
-<div class="h-5/6 flex-grow flex items-center justify-center">
-  <div class="lg:basis-3/4 sm:basis-11/12 bg-white shadow-sm">
-    <router-outlet></router-outlet>
+  <div class="flex-grow">
+    <div class="flex justify-center">
+      <div class="main-container basis-11/12 lg:basis-9/12 bg-white shadow-lg lg:p-8 p-4">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
   </div>
+
+  <app-footer></app-footer>
 </div>
-<app-footer></app-footer>

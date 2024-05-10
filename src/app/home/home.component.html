@@ -1,1 +1,45 @@
-<p>home works!</p>
+<h1 class="text-3xl lg:text-5xl ml-4 md:ml-5 pt-3">
+  Loan Calculator:<br>Estimate Your Monthly Payments
+</h1>
+
+<div class="flex flex-wrap md:py-3 md:flex-nowrap"> 
+
+  <div class="w-full md:w-1/2 p-4">
+    <form class="pt-6 px-6 pb-12 border">
+      <h2 class="text-lg lg:text-2xl font-bold tracking-wide">Details</h2>
+      <div>
+        <label for="amount" class="mt-4 block text-sm font-medium text-gray-700">Loan Amount</label>
+        <input type="number" id="amount" name="amount"
+          class="block w-full p-2 border border-gray-300 rounded-md shadow-sm">
+      </div>
+      <div>
+        <label for="rate" class="mt-4 block text-sm font-medium text-gray-700">Interest Rate</label>
+        <input type="number" id="rate" name="rate" 
+          class="block w-full p-2 border border-gray-300 rounded-md shadow-sm">
+      </div>
+      <div>
+        <label for="loanTerm" class="mt-4 block text-sm font-medium">Loan Term</label>
+        <select id="loanTerm"
+          class="border border-gray-300 rounded block w-full p-2.5 ">
+          <option>15 Year</option>
+          <option>20 Year</option>
+          <option>30 Year</option>
+        </select>
+      </div>
+      <button (click)="calculate()" class="mt-6 w-full font-bold p-2.5 rounded">
+        Calculate
+      </button>      
+    </form>
+  </div>
+
+  <div class=" md:w-1/2 pl-4 pb-4 md:p-4">
+    <div class="md:pt-6 hidden md:block">
+      <img src="../../assets/images/house.png" alt="House" width="250px" class="m-auto">
+    </div>
+    <div class=" pt-6 text-2xl font-semibold text-center">
+      <h2 class="mb-4">Monthly Payment: <span>${{ monthlyPayment }}</span></h2>
+      <h2>Monthly Interest: <span>${{ monthlyInterest }}</span></h2>
+    </div>
+  </div>
+
+</div>

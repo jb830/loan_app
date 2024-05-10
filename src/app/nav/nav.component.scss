@@ -3,3 +3,9 @@
 nav {
   background-color: #ffffff;
 }
+
+@media screen and (min-width: 1800px) {
+  .base-container {
+    width: 85%;
+  }
+}

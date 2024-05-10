@@ -1,1 +1,9 @@
-/*# sourceMappingURL=base-layout.component.css.map */
+.main-container {
+  margin: 3% 0;
+}
+
+@media screen and (min-width: 1800px) {
+  .main-container {
+    flex-basis: 50%;
+  }
+}/*# sourceMappingURL=base-layout.component.css.map */

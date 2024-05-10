@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"base-layout.component.css"}
+{"version":3,"sources":["base-layout.component.scss","base-layout.component.css"],"names":[],"mappings":"AAAA;EACE,YAAA;ACCF;;ADCA;EAEE;IACE,eAAA;ECCF;AACF","file":"base-layout.component.css"}

@@ -17,7 +17,12 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
-
+h1, h2, h3, h4 {
+  font-family: "Playfair Display", serif;
+}
+p {
+  font-size: 18px;
+}
 button {
   background-color: map-get(theme.$light-accent, 500);
 }

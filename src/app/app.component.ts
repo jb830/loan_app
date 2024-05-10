@@ -13,9 +13,8 @@ import { RouterModule } from '@angular/router';
 import { BaseLayoutComponent } from './base-layout/base-layout.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component'; 
-
-
+import { AboutComponent } from './about/about.component';
+import { NotFoundComponent } from './not-found/not-found.component'; 
 
 @Component({
   selector: 'app-root',
@@ -27,6 +26,7 @@ import { AboutComponent } from './about/about.component';
     ContactComponent,
     HomeComponent,
     AboutComponent,
+    NotFoundComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

@@ -1,0 +1,13 @@
+@use '../../theme' as theme;
+footer {
+  background-color: map-get(theme.$light-tertiary, 500);
+}
+a {
+  color: map-get(theme.$light-accent, 500);
+}
+
+@media screen and (min-width: 1800px) {
+  .base-container {
+    width: 85%;
+  }
+}
