@@ -1,9 +1,9 @@
 @use '../../theme' as theme;
 footer {
-  background-color: map-get(theme.$light-tertiary, 500);
+  background-color: map-get(theme.$light-primary, 500);
 }
 a {
-  color: map-get(theme.$light-accent, 500);
+  color: map-get(theme.$light-accent, 300);
 }
 
 @media screen and (min-width: 1800px) {
