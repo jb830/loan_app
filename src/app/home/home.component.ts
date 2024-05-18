@@ -8,13 +8,7 @@
 ;===========================================
 */
 import { Component } from '@angular/core';
-import { MatButtonModule, MatButton } from '@angular/material/button';
-import { MatCardModule } from '@angular/material/card';
 import { RouterModule, RouterOutlet } from '@angular/router';
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatInputModule } from '@angular/material/input';
-import { MatListModule } from '@angular/material/list';
-import { MatSelectModule } from '@angular/material/select';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
@@ -23,14 +17,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   standalone: true,
   imports: [
     CommonModule,
-    MatButtonModule,
-    MatButton,
-    MatCardModule,
     RouterModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatListModule,
-    MatSelectModule,
     FormsModule,
     ReactiveFormsModule,
   ],
